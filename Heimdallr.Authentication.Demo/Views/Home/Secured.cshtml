@@ -1,0 +1,9 @@
+﻿@{
+    var username = User?.Identity?.Name;
+}
+
+<div class="container" style="padding:0 30px 0 30px; margin:auto;">
+    <h1>Welcome, @username!</h1>
+    <h3>You are authenticated as Developer now</h3>
+    <a href="~/Logout">Log out</a>
+</div>
