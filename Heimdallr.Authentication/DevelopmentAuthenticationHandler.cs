@@ -133,7 +133,7 @@ namespace Heimdallr.Authentication
                 Response.Headers.Append(HeaderNames.WWWAuthenticate, headerValue);
             }
 
-            return Task.CompletedTask; ;
+            return Task.CompletedTask;
         }
     }
 }
